@@ -11,6 +11,6 @@ $docker build .
 
 $docker image ls
 
-$sdocker run -p 8080:80 <IMAGE ID>
+$docker run -p 8080:80 '<IMAGE ID>'
 
 http://localhost:8080/
