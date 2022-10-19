@@ -5,8 +5,12 @@ Simple time application
 
 $cd nginx/
 
-$sudo docker build -t tiagotest:v0.1.0 .
+$docker pull titeixei/nginx:v0.1.0
 
-$sudo docker run -p 8080:80 tiagotest:v0.1.0
+$docker build .
+
+$docker image ls
+
+$sdocker run -p 8080:80 <IMAGE ID>
 
 http://localhost:8080/
