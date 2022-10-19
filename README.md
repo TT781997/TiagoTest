@@ -5,12 +5,8 @@ Simple time application
 
 $cd nginx/
 
-$docker pull titeixei/nginx:v0.1.0
+$chmod +x nginx-test-dockerhub.sh
 
-$docker build .
-
-$docker image ls
-
-$docker run -p 8080:80 '<IMAGE_ID>'
+$./nginx-test-dockerhub.sh
 
 http://localhost:8080/
